@@ -1,14 +1,14 @@
-<script setup>
-import BaseCondition from './components/BaseCondition.vue';
-import BaseLoop from './components/BaseLoop.vue';
-</script>
-
 <template>
   <div id="app">
     <BaseCondition></BaseCondition>
     <BaseLoop :tasks="tasks"></BaseLoop>
   </div>
 </template>
+
+<script setup>
+import BaseCondition from './components/BaseCondition.vue';
+import BaseLoop from './components/BaseLoop.vue';
+</script>
 
 <style>
 #app {

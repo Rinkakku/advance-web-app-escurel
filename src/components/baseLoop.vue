@@ -19,46 +19,6 @@
   </script>
   
   <style scoped>
-  .loop-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: century Gothic Medium;
-    color: #361616;
-  }
-  
-  .loop-title {
-    font-size: 36px;
-    font-weight: 600;
-    margin: 25px 0 20px;
-    color: rgb(64, 78, 161);
-  }
-  
-  .loop-item {
-    margin: 10px 0;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    color: #1a1515;
-  }
-  
-  .no-tasks-message {
-    text-align: center;
-    color: #797474;
-    margin-top: 20px;
-    font-size: 13px;
-  }
+  /* Your styles for BaseLoop.vue */
   </style>
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
