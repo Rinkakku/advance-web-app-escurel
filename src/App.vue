@@ -14,6 +14,7 @@
         <flexbox-tool v-if="activeTool === 'flexbox'"></flexbox-tool>
         <conversion-tool v-if="activeTool === 'conversion'"></conversion-tool>
         <calculator-tool v-if="activeTool === 'calculator'"></calculator-tool>
+      
       </div>
     </div>
   </div>
@@ -56,6 +57,7 @@ export default {
     'flexbox-tool': FlexboxTool,
     'conversion-tool': ConversionTool,
     'calculator-tool': CalculatorTool,
+    
   },
   methods: {
     showTool(tool) {
