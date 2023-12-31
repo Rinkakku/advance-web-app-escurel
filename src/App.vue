@@ -23,17 +23,18 @@
 <style>
 .micro-tool-button {
   display: block;
-  width: 200px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
-  padding: 30px; /* Adjust the padding as needed */
-  margin-bottom: 100px; /* Adjust the margin as needed */
+  width: 200px; 
+  height: 100px; 
+  padding: 30px; 
+  margin-bottom: 100px; 
   background-color: rgb(139, 35, 35);
   color: white;
   font-weight: bold;
   border: none;
-  border-radius: 8px; /* Adjust the border-radius as needed */
+  border-radius: 8px; 
   cursor: pointer;
   transition: background-color 0.3s;
+  /* Adjust the features or chars as needed */
 }
 
 .micro-tool-button:hover {
