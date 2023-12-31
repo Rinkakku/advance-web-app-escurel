@@ -26,7 +26,7 @@
   height: 100px; /* Adjust the height as needed */
   padding: 30px; /* Adjust the padding as needed */
   margin-bottom: 100px; /* Adjust the margin as needed */
-  background-color: #3498db;
+  background-color: rgb(139, 35, 35);
   color: white;
   font-weight: bold;
   border: none;
@@ -36,7 +36,7 @@
 }
 
 .micro-tool-button:hover {
-  background-color: #2980b9;
+  background-color: rgb(139, 35, 35);
 }
 </style>
 
