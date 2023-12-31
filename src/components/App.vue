@@ -14,7 +14,6 @@
         <flexbox-tool v-if="activeTool === 'flexbox'"></flexbox-tool>
         <conversion-tool v-if="activeTool === 'conversion'"></conversion-tool>
         <calculator-tool v-if="activeTool === 'calculator'"></calculator-tool>
-      
       </div>
     </div>
   </div>
@@ -23,11 +22,11 @@
 <style>
 .micro-tool-button {
   display: block;
-  width: 200px; 
+  width: 200px;
   height: 100px; 
   padding: 30px; 
   margin-bottom: 100px; 
-  background-color: rgb(139, 35, 35);
+  background-color: #960202;
   color: white;
   font-weight: bold;
   border: none;
@@ -38,7 +37,7 @@
 }
 
 .micro-tool-button:hover {
-  background-color: rgb(139, 35, 35);
+  background-color: #960202;
 }
 </style>
 
@@ -58,7 +57,6 @@ export default {
     'flexbox-tool': FlexboxTool,
     'conversion-tool': ConversionTool,
     'calculator-tool': CalculatorTool,
-    
   },
   methods: {
     showTool(tool) {
