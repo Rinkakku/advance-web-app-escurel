@@ -21,10 +21,10 @@
 
 <style>
 .micro-tool-button {
-  display: block;
+  display:flexbox;
   width: 200px;
   height: 100px; 
-  padding: 30px; 
+  padding: 10px; 
   margin-bottom: 100px; 
   background-color: #960202;
   color: white;
@@ -38,6 +38,7 @@
 
 .micro-tool-button:hover {
   background-color: #960202;
+  border-radius: 1px; 
 }
 </style>
 
